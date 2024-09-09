@@ -1,13 +1,15 @@
-#bienvenida{
-    font-family: serif;
-    font-size: 70px;
-    text-align: center;
+h1{
+    font-family: "Ribeye Marrow", serif;
+    font-size: 65px;
+    text-indent: 220px;
     color: #120909;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
-p{
+.quote, h2{
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Lilita One", sans-serif;
     text-align: center;
 }
 
@@ -37,12 +39,55 @@ body {
 
 .button{
     background-color: #ef6c96;
-    border: 2px solid #ff5a8c;
+    border: 2px solid #120909;
     border-radius: 8px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #120909;
+    font-family: "Lilita One", sans-serif;
     font-size: 20px;
     padding: 10px 24px;
     text-align: center;
     cursor: pointer;
+    border-spacing: 50px;
     }
+
+.portada {
+    font-size: 30px;
+    font-family: "Lilita One", sans-serif;
+    text-indent: 220px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.saludo{
+    font-size: 30px;
+    font-family: "Lilita One", sans-serif;
+    text-indent: 220px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+
+#perfil{
+    width: 200px;
+    border-radius: 8px;
+    float: right;
+    margin-right: 300px;
+    vertical-align: top;
+    margin-top: -150px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6e3668;
+}
+
+hr{
+    color:#6e3668;
+    height: 5px;
+    width: 100%;
+    background-color: #6e3668;
+}
+
+.descripcion{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
