@@ -86,8 +86,89 @@ hr{
 }
 
 .descripcion{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', sans-serif;
     text-align: justify;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+/*Estilo tablet*/
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        text-indent: 100px;
+    }
+
+    .quote, h2 {
+        font-size: 24px;
+    }
+
+    #portada {
+        width: 60%;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .saludo, .portada {
+        text-indent: 100px;
+    }
+    
+    #perfil {
+        width: 150px;
+        margin-right: 100px;
+        margin-top: 0;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .descripcion {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/*Estilo para celular*/
+@media (max-width: 480px) {
+    h1 {
+        font-size: 35px;
+        text-indent: 0;
+    }
+
+    .quote, h2 {
+        font-size: 20px;
+    }
+
+    #portada {
+        width: 80%;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .saludo, .portada {
+        text-indent: 0;
+        text-align: center;
+    }
+    
+    #perfil {
+        width: 100px;
+        margin-right: 0;
+        margin-top: 0;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .descripcion {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
